@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #B0DDE4;
+    border: 1px solid pink;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 2000px;
+    margin: 0 auto;
+    box-shadow: 10px 20px 50px 10px pink inset;
+}
+
+.nav-list {
+    margin-left: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    max-width: 80px;
+    padding: 10px;
+}
+
+.link-button {
+    background-color: #C5ADED;
+    padding: 15px;
+    border-radius: 1vw;
+    border: 2px solid black;
+    transition: all 1s ease;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-button:hover {
+    background-color: #C5ADED;
+    color: white;
+    border: 2px solid white;
+}
+
+/* End of nav */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    border: 2px solid red;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.header-content {
+    display: flex;
+    width: 100%
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: aqua;
+
+}
+
+.right-content {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.header-img {
+    width: 300px;
+    height: 300px;
+    min-height: 275px;
+    min-width: 275px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+header p {
+    padding: 10px 10px;
+    line-height: 1rem;
+}
+
+/* end of header */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    width: 60vw auto;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: aqua;
+    box-shadow: 0px 0px 10px 10px #888888;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    box-shadow: 10px 10px 8px 5px #888888;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
