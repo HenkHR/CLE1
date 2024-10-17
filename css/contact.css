@@ -6,43 +6,135 @@
 }
 
 nav {
-    background-color: #B0DDE4;
-    border: 1px solid pink;
+    background-color: wheat;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.nav-container {
+.navleft {
+    height: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    max-width: 2000px;
-    margin: 0 auto;
-    box-shadow: 10px 20px 50px 10px pink inset;
+    gap: 40px
 }
 
-.nav-list {
-    margin-left: 300px;
+.navleft img {
+    padding-left: 50px;
+}
+
+.navright {
     display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navright a {
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    color: black;
+    text-decoration: none;
+    padding: 0px 30px;
+    width: 15vw;
+}
+
+.navright a:hover {
+    border-bottom: white 5px solid;
+}
+
+nav img {
+    height: 60%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+main {
+    padding: 0px 20vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    border: solid black 2px;
+    box-shadow: 10px 10px 20px gray;
+    margin-bottom: 50px;
+}
+
+.formitem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
 }
 
-.logo {
-    max-width: 80px;
+.inputrow .formitem {
+    flex: 1;
+}
+
+.radio {
+    padding: 10px 0px;
+}
+
+.checkbox {
+    padding: 10px 0px;
+}
+
+textarea {
+    max-width: 99.5%;
+    min-width: 99.5%;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+button {
     padding: 10px;
-}
-
-.link-button {
-    background-color: #C5ADED;
-    padding: 15px;
-    border-radius: 1vw;
-    border: 2px solid black;
-    transition: all 1s ease;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-}
-
-.link-button:hover {
-    background-color: #C5ADED;
     color: white;
-    border: 2px solid white;
+    font-weight: bold;
+    background-color: wheat;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: wheat;
+    border-color: wheat;
 }
