@@ -2,9 +2,17 @@
 --lichtbruin: #c3b59fff;
 --lichtgroen: #a0af84ff; 
 
---oxford-blue: #001427ff;
---hookers-green: #708d81ff;
---jasmine: #f4d58dff;
+--oxford-blue: #001427ff;     Donker blauw
+--#00386e                     Lichte versie
+
+
+--hookers-green: #708d81ff;   Groen
+--#94aaa1                     Lichte versie
+
+--jasmine: #f4d58dff;        Geel
+--#f7dfa9                    Lichte versie
+
+
 
 
 background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
@@ -29,3 +37,5 @@ background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gra
 background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%); groen blauw 
 
 background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+
+background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);

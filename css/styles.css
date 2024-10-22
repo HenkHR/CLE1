@@ -5,6 +5,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#yellow {
+    background-color: #f4d58dff;
+}
+
+#yellow-border {
+    border: 4px solid #f4d58dff;
+}
+
+body {
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
 .h2-nopadding {
     padding-top: 5px;
 }
@@ -48,6 +60,7 @@ nav img {
 
 .links a:hover {
     text-decoration: underline;
+    transition: 500ms;
 }
 
 .links .no-border {
@@ -111,7 +124,7 @@ p {
 }
 
 .feature-content-left img {
-    background-color: lightgray;
+    background-color: #708d81ff;
     border-radius: 10px;
     padding: 10px;
     width: 50px;
@@ -144,10 +157,11 @@ p {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    border: solid black 2px;
+    border: 4px solid #708d81ff;
     border-radius: 1vw;
     width: 25vw;
     overflow: auto;
+    background-color: #708d81ff;
 }
 
 .photo-content p {
@@ -161,7 +175,6 @@ p {
 
 .photo-content img {
     width: 100%;
-    height: 100px;
     object-fit: cover;
     border-bottom: 1px solid black;
 }
@@ -183,21 +196,44 @@ p {
     gap: 50px;
     align-items: center;
     padding-bottom: 40px;
+    height: 100%;
 }
 
 .review-content {
+    background-color: #708d81ff;
     width: 25vw;
-    border: 1px solid black;
+    min-height: 200px;
+    border: 4px solid #708d81ff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-content div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.review-content div {
-    border-top: solid red 2px;
-    width: 20%;
+.review-content .review-border-green,
+.review-content .review-border-yellow {
+    width: 40%;
+}
+
+.review-content p {
+    padding: 10px 10px 10px 10px;
+}
+
+.review-border-green {
+    border-top: 2px solid #708d81ff;
+}
+
+.review-border-yellow {
+    border-top: 2px solid #f4d58dff;
 }
 
 /* End Container 3 */
@@ -216,12 +252,17 @@ p {
     gap: 8vw;
 }
 
+.linked-content a {
+    padding: 20px;
+}
+
 .contact {
+    background-color: #708d81ff;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 40%;
-    border: 1px solid gray;
+    border: 4px solid #f4d58dff;
     border-radius: 10px;
 }
 
@@ -237,7 +278,7 @@ p {
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    border-left: 1px solid gray;
+    border-left: 1px solid #f4d58dff;
 }
 
 .contact-right-text {
@@ -245,34 +286,50 @@ p {
 }
 
 .contact a {
+    width: 100%;
     text-align: center;
     text-decoration: none;
-    color: red;
-    padding: 2px;
-    background-color: gray;
-    border-radius: 1vw;
+    color: #001427ff;
+    padding: 8px;
+    background-color: #f4d58dff;
+    border-radius: 5px;
+}
+
+.contact a:hover {
+    background-color: #f7dfa9;
+    transition: 500ms;
 }
 
 .handleiding {
     display: flex;
-    border: 1px solid gray;
+    border: 4px solid #708d81ff;
     border-radius: 10px;
     width: 40%;
 }
 
-.handleiding-content-left {
+.handleiding-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    background-color: #f4d58dff;
+    border-radius: 5px;
+}
+
+.handleiding-content p {
     padding: 10px;
 }
 
-.handleiding-content-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    border-left: 1px solid gray;
+.handleiding-content a {
+    background-color: #708d81ff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #001427ff;
+}
+
+.handleiding-content a:hover {
+    background-color: #94aaa1;
+    transition: 500ms;
 }
 
 /* End Container 4 */
