@@ -5,8 +5,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.h2-nopadding {
+    padding-top: 5px;
+}
+
 header {
-    height: 80vh;
+    height: 65vh;
     background-image: url(../images/HeaderbackgroundTest.jpg);
     background-position: center;
     background-size: 100%;
@@ -24,19 +28,30 @@ header {
 nav img {
     width: 100px;
     height: 100px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .links {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
 }
 
 .links a {
-    color: white;
     text-decoration: none;
+    color: white;
+    border-right: 1px solid gray;
+    padding: 20px 20px 20px 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links .no-border {
+    border: none;
 }
 
 h1 {
@@ -169,6 +184,14 @@ p {
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-content div {
+    border-top: solid red 2px;
+    width: 20%;
 }
 
 /* End Container 3 */
@@ -181,44 +204,105 @@ p {
 .linked-content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
+    padding: 40px 0px 40px 0px;
+    gap: 8vw;
 }
 
 .contact {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex: 1;
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 .contact-content-left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .contact-content-right {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    border-left: 1px solid gray;
+}
 
+.contact-right-text {
+    padding-bottom: 15px;
 }
 
 .contact a {
+    text-align: center;
     text-decoration: none;
     color: red;
-    padding: 8px;
+    padding: 2px;
     background-color: gray;
     border-radius: 1vw;
 }
 
 .handleiding {
-    flex: 1;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.handleiding-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.handleiding-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-left: 1px solid gray;
 }
 
 /* End Container 4 */
 
 footer {
     border-top: 1px solid gray;
+    padding-top: 25px;
+    background-color: #001427ff;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+    border-right: 1px solid gray;
+    padding: 20px 20px 20px 20px;
+    width: 150px;
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.no-border {
+    border: none;
+}
+
+footer p {
+    color: gray;
+    line-height: 2rem;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
