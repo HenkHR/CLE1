@@ -79,13 +79,14 @@ p span a:hover {
 /* End of header */
 
 main {
+    /* display: flex;
+    flex-direction: column; */
     padding: 0px 150px 0px 150px;
 }
 
 main h2 {
     font-size: 2rem;
     text-align: center;
-    padding: 75px 50px 50px 50px;
 }
 
 main h3 {
@@ -102,6 +103,24 @@ main article {
     flex-direction: row;
     height: fit-content;
     justify-content: space-between;
+}
+
+.title-decoration {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 50px 50px 50px;
+    gap: 20px;
+}
+
+.left-title img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #f4d58dff;
+    border-radius: 10px;
 }
 
 .article1 {
@@ -135,7 +154,7 @@ img {
 .featurebuttons a {
     color: black;
     text-decoration: none;
-    background-color: lightgray;
+    background-color: #708d81ff;
     padding: 10px;
     border-radius: 1vh;
     width: 300px;
@@ -145,7 +164,7 @@ img {
 }
 
 .featurebuttons a:hover {
-    background-color: white;
+    background-color: #94aaa1;
 }
 
 .featurebuttons {

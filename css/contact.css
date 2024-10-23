@@ -159,7 +159,7 @@ textarea {
 
 button {
     padding: 10px;
-    color: white;
+    color: black;
     font-weight: bold;
     background-color: #708d81ff;
     border: solid white 1px;
@@ -167,8 +167,8 @@ button {
 }
 
 button:hover {
-    background-color: white;
-    color: #708d81ff;
+    background-color: #94aaa1;
+    color: black;
     border-color: #708d81ff;
 }
 
