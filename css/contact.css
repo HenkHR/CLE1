@@ -73,6 +73,7 @@ main {
     align-items: center;
     gap: 30px;
     padding: 100px 0px 100px 0px;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
 form {

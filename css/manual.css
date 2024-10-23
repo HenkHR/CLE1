@@ -81,7 +81,8 @@ p span a:hover {
 main {
     /* display: flex;
     flex-direction: column; */
-    padding: 0px 150px 0px 150px;
+    padding: 0px 150px 100px 150px;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
 main h2 {
@@ -144,6 +145,7 @@ img {
 
 .article-left2 {
     max-height: 200px;
+    background-color: white;
 }
 
 .article-right2 {
@@ -174,14 +176,12 @@ img {
     padding: 50px 0px;
 }
 
-
 /* End of main */
 
 footer {
     border-top: 1px solid gray;
     padding-top: 25px;
     background-color: #001427ff;
-    margin-top: 75px;
 }
 
 footer a {
@@ -263,7 +263,7 @@ footer p {
     }
 
     main {
-        padding: 0px 30px;
+        padding: 0px 30px 30px 30px;
     }
 
     .title-decoration {
