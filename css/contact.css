@@ -170,6 +170,7 @@ button:hover {
     background-color: #94aaa1;
     color: black;
     border-color: #708d81ff;
+    cursor: pointer;
 }
 
 /* End main */
