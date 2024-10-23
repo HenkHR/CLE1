@@ -243,13 +243,17 @@ p {
     align-items: center;
 }
 
+.stars span {
+    padding-bottom: 10px;
+}
+
 #no-padding-right {
-    padding-right: 0px;
-    color: yellow
+    color: yellow;
+    padding: 0px 0px 10px 0px;
 }
 
 #no-padding-bottom {
-    padding-bottom: 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 /* End Container 3 */
@@ -385,4 +389,103 @@ footer p {
     line-height: 2rem;
     padding-top: 25px;
     padding-bottom: 20px;
+}
+
+@media (width <=480px) {
+    header {
+        background-image: url(../images/Headerbackground\ responsive.jpg);
+    }
+
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    header .header-text p {
+        padding-top: 20px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .links a {
+        border-right: none;
+        border-bottom: gray 1px solid;
+    }
+
+    .links a .no-border {
+        border: none;
+    }
+
+
+    main section {
+        padding: 0px 40px
+    }
+
+    .features {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .feature-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-content-right p,
+    h3 {
+        text-align: center;
+    }
+
+    .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photo-content {
+        width: 90vw;
+    }
+
+    .review-container {
+        flex-direction: column;
+    }
+
+    .container-4 {
+        padding: 0px;
+    }
+
+    .review-content {
+        width: 90vw;
+        height: 25vh;
+        padding: 0px;
+    }
+
+    .linked-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .handleiding {
+        width: 90vw;
+    }
+
+    .contact {
+        width: 90vw;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links a {
+        border: none;
+        border-bottom: solid gray 2px;
+    }
 }
