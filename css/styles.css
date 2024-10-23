@@ -197,12 +197,13 @@ p {
     align-items: center;
     padding-bottom: 40px;
     height: 100%;
+    padding-top: 20px;
 }
 
 .review-content {
     background-color: #708d81ff;
     width: 25vw;
-    min-height: 200px;
+    height: 250px;
     border: 4px solid #708d81ff;
     border-radius: 10px;
     padding: 10px 10px 0px 10px;
@@ -238,12 +239,17 @@ p {
 
 .stars {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
-.star-space {
-    width: 10px;
+#no-padding-right {
+    padding-right: 0px;
+    color: yellow
+}
+
+#no-padding-bottom {
+    padding-bottom: 0px;
 }
 
 /* End Container 3 */
