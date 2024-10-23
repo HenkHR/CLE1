@@ -78,8 +78,13 @@ main {
 form {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     gap: 10px;
     width: 50%;
+    padding: 25px;
+    padding-top: 80px;
+    border: 2px solid black;
+    background-image: linear-gradient(#708d81ff 10%, 10%, white 90%);
 }
 
 .formitem {
@@ -96,6 +101,12 @@ select {
 input {
     padding: 10px;
     border-radius: 5px;
+    background-color: #f4d58dff;
+    border: 2px solid #708d81ff;
+}
+
+input:hover {
+    background-color: #f7dfa9;
 }
 
 .inputrow {
@@ -107,6 +118,28 @@ input {
 
 .inputrow .formitem {
     flex: 1;
+}
+
+select {
+    background-color: #f4d58dff;
+    border: 2px solid #708d81ff;
+}
+
+select:hover {
+    background-color: #f7dfa9;
+}
+
+option:hover {
+    background-color: #f7dfa9;
+}
+
+textarea {
+    background-color: #f4d58dff;
+    border: 2px solid #708d81ff;
+}
+
+textarea:hover {
+    background-color: #f7dfa9;
 }
 
 .radio {
