@@ -236,6 +236,16 @@ p {
     border-top: 2px solid #f4d58dff;
 }
 
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.star-space {
+    width: 10px;
+}
+
 /* End Container 3 */
 
 .container-4 {
@@ -314,6 +324,7 @@ p {
     padding: 10px;
     background-color: #f4d58dff;
     border-radius: 5px;
+    width: 100%;
 }
 
 .handleiding-content p {

@@ -116,10 +116,20 @@ img {
 
 .article-left1 {
     width: auto;
+    max-height: 200px;
 }
 
 .article-right1 {
-    flex: 2
+    flex: 2;
+    max-height: 200px;
+}
+
+.article-left2 {
+    max-height: 200px;
+}
+
+.article-right2 {
+    max-height: 200px;
 }
 
 .featurebuttons a {
