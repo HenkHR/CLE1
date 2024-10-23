@@ -185,6 +185,10 @@ footer p {
         background-image: url(../images/Headerbackground\ responsive.jpg);
     }
 
+    header .header-text p {
+        padding-top: 20px;
+    }
+
     .nav-container {
         flex-direction: column;
         align-items: center;

@@ -198,3 +198,49 @@ footer p {
 }
 
 /* End footer */
+
+@media (width <=480px) {
+    header {
+        background-image: url(../images/Headerbackground\ responsive.jpg);
+    }
+
+    header .header-text p {
+        padding-top: 20px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .links a {
+        border-right: none;
+        border-bottom: gray 1px solid;
+    }
+
+    .links a .no-border {
+        border: none;
+    }
+
+
+    .featurebuttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links a {
+        border: none;
+        border-bottom: solid gray 2px;
+    }
+}
