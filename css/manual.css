@@ -102,7 +102,6 @@ main article {
     display: flex;
     flex-direction: row;
     height: fit-content;
-    justify-content: space-between;
 }
 
 .title-decoration {
@@ -221,6 +220,7 @@ footer p {
 @media (width <=480px) {
     header {
         background-image: url(../images/Headerbackground\ responsive.jpg);
+        height: fit-content;
     }
 
     header .header-text p {
@@ -250,12 +250,69 @@ footer p {
         border: none;
     }
 
+    .title-decoration {
+        flex-direction: column;
+        width: 90vw;
+    }
 
     .featurebuttons {
         flex-direction: column;
         align-items: center;
         gap: 10px;
         padding: 20px;
+    }
+
+    main {
+        padding: 0px 30px;
+    }
+
+    .title-decoration {
+        width: 100%;
+        padding: 50px 0px 50px 0px;
+    }
+
+    main article {
+        flex-direction: column;
+    }
+
+    main article div {
+        height: fit-content;
+    }
+
+    .article1 {
+        flex-direction: column-reverse;
+    }
+
+    .article-left1 {
+        width: auto;
+        max-height: none;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .article-left1 img {
+        width: 90%;
+        height: 300px;
+    }
+
+    .article-right2 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .article-right1 {
+        flex: 2;
+        max-height: none;
+    }
+
+    .article-left2 {
+        max-height: none;
+        padding-top: 30px;
+    }
+
+    .article-right2 {
+        max-height: none;
+        padding: 20px 0px;
     }
 
     .footer-links {

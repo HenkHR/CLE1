@@ -217,6 +217,7 @@ footer p {
 @media (width <=480px) {
     header {
         background-image: url(../images/Headerbackground\ responsive.jpg);
+        height: fit-content;
     }
 
     header .header-text p {
