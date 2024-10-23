@@ -243,13 +243,17 @@ p {
     align-items: center;
 }
 
+.stars span {
+    padding-bottom: 10px;
+}
+
 #no-padding-right {
-    padding-right: 0px;
-    color: yellow
+    color: yellow;
+    padding: 0px 0px 10px 0px;
 }
 
 #no-padding-bottom {
-    padding-bottom: 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 /* End Container 3 */
@@ -420,11 +424,59 @@ footer p {
     }
 
 
-    .featurebuttons {
+    main section {
+        padding: 0px 40px
+    }
+
+    .features {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .feature-content {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-        padding: 20px;
+    }
+
+    .feature-content-right p,
+    h3 {
+        text-align: center;
+    }
+
+    .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photo-content {
+        width: 90vw;
+    }
+
+    .review-container {
+        flex-direction: column;
+    }
+
+    .container-4 {
+        padding: 0px;
+    }
+
+    .review-content {
+        width: 90vw;
+        height: 25vh;
+        padding: 0px;
+    }
+
+    .linked-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .handleiding {
+        width: 90vw;
+    }
+
+    .contact {
+        width: 90vw;
     }
 
     .footer-links {
