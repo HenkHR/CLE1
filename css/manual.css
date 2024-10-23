@@ -85,7 +85,7 @@ main {
 main h2 {
     font-size: 2rem;
     text-align: center;
-    padding: 50px;
+    padding: 75px 50px 50px 50px;
 }
 
 main h3 {
@@ -122,12 +122,38 @@ img {
     flex: 2
 }
 
+.featurebuttons a {
+    color: black;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 1vh;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    border: solid 2px lightgray;
+}
+
+.featurebuttons a:hover {
+    background-color: white;
+}
+
+.featurebuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+
 /* End of main */
 
 footer {
     border-top: 1px solid gray;
     padding-top: 25px;
     background-color: #001427ff;
+    margin-top: 75px;
 }
 
 footer a {
